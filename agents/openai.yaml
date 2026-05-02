@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Game Studios"
+  short_description: "Automation-first game development studio workflows for Codex."
+  default_prompt: "Use Codex Game Studios to inspect this game project, detect its stage, choose the right workflow, and run quality gates."

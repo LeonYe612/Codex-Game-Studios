@@ -1,0 +1,44 @@
+{
+  "name": "codex-game-studios",
+  "version": "0.1.0",
+  "description": "Codex-native game development studio workflows adapted from Claude Code Game Studios. Use natural language to plan, design, validate, and build games with automation-first quality gates.",
+  "author": {
+    "name": "swl521",
+    "url": "https://github.com/swl521"
+  },
+  "homepage": "https://github.com/swl521/Codex-Game-Studios",
+  "repository": "https://github.com/swl521/Codex-Game-Studios",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "game-development",
+    "game-design",
+    "automation",
+    "agents",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "hooks": "./hooks.json",
+  "interface": {
+    "displayName": "Codex Game Studios",
+    "shortDescription": "Automation-first game studio workflows for Codex",
+    "longDescription": "Codex Game Studios turns a Codex session into a structured game development workflow. It provides natural-language routing, project stage detection, quality gates, expert role references, and adapted skills for design, production, engineering, QA, release, and creative direction.",
+    "developerName": "swl521",
+    "category": "Engineering",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/swl521/Codex-Game-Studios",
+    "privacyPolicyURL": "https://github.com/swl521/Codex-Game-Studios",
+    "termsOfServiceURL": "https://github.com/swl521/Codex-Game-Studios/blob/main/LICENSE",
+    "defaultPrompt": [
+      "Use Codex Game Studios to start my game project.",
+      "Check my game project and recommend the next step.",
+      "Run the Codex Game Studios quality gate."
+    ],
+    "brandColor": "#2563EB",
+    "screenshots": []
+  }
+}

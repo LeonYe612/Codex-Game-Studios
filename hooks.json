@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "hooks": [],
+  "advisory": {
+    "summary": "Codex Game Studios uses automation-first skills and scripts instead of Claude Code session hooks.",
+    "recommendedSkills": [
+      "studio-doctor",
+      "studio-stage-detect",
+      "automation-gate"
+    ],
+    "scripts": [
+      "scripts/cgs-doctor.ps1",
+      "scripts/cgs-detect-stage.ps1",
+      "scripts/cgs-validate-project.ps1"
+    ]
+  }
+}
