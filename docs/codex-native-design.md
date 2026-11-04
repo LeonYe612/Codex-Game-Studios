@@ -35,6 +35,10 @@ does not need the same hook model for the core experience. This port keeps a
 valid `hooks.json` advisory file and moves practical validation into scripts
 that Codex can run on demand.
 
+The gate scripts are PowerShell 7 scripts and require `pwsh`. Codex skills can
+still follow their workflows without PowerShell when a check can be emulated
+from the repository contents.
+
 Recommended gates:
 
 - `plugins/codex-game-studios/scripts/cgs-doctor.ps1` for plugin and repository health

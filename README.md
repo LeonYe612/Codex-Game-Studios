@@ -66,6 +66,10 @@ codex plugin add codex-game-studios@codex-game-studios
 
 ## Automation
 
+The automation scripts require PowerShell 7 (`pwsh`). Install it on macOS with
+`brew install --cask powershell`. The natural-language studio skills do not
+require PowerShell.
+
 Run the self-check:
 
 ```powershell
