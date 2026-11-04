@@ -9,12 +9,21 @@ Codex Game Studios is adapted from:
 The original Claude Code Game Studios project provides the studio hierarchy,
 skills, agents, hooks, rules, templates, and game-development workflow structure.
 
-This port adds a Codex-native plugin layer:
+This repository maintains a private Codex-native fork of that port. The fork
+moves the plugin into a marketplace-installable package and updates its
+ownership metadata. Codex-native additions from the upstream port remain:
 
-- `.codex-plugin/plugin.json`
-- Codex-oriented `skills/`
-- Expert reference files in `agents/`
-- Automation scripts in `scripts/`
+
+- `plugins/codex-game-studios/.codex-plugin/plugin.json`
+- Codex-oriented `plugins/codex-game-studios/skills/`
+- Expert reference files in `plugins/codex-game-studios/agents/`
+- Automation scripts in `plugins/codex-game-studios/scripts/`
 - Codex-native documentation and quality gate workflows
 
 The MIT License is preserved in `LICENSE`.
+
+## Maintained Fork
+
+- Maintained by: [LeonYe612](https://github.com/LeonYe612)
+- Fork source: [swl521/Codex-Game-Studios](https://github.com/swl521/Codex-Game-Studios)
+- Maintained repository: [LeonYe612/Codex-Game-Studios](https://github.com/LeonYe612/Codex-Game-Studios)

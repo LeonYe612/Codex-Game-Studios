@@ -10,8 +10,8 @@ pass, pre-commit review, pre-release check, or project safety scan.
 
 ## Workflow
 
-1. Run `scripts/cgs-validate-project.ps1`.
-2. Run `scripts/cgs-doctor.ps1` if plugin or repository health is in scope.
+1. Run `./scripts/cgs-validate-project.ps1`.
+2. Run `./scripts/cgs-doctor.ps1` if plugin or repository health is in scope.
 3. Review detected issues against the current project stage.
 4. Classify results:
    - Pass: no blocking issues.

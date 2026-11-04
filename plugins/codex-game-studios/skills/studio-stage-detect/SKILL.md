@@ -10,7 +10,7 @@ missing, or what to do next.
 
 ## Workflow
 
-1. Run `scripts/cgs-detect-stage.ps1`.
+1. Run `./scripts/cgs-detect-stage.ps1`.
 2. Interpret the result:
    - Empty or no concept: recommend `brainstorm`.
    - Concept without engine: recommend `setup-engine`.
@@ -20,7 +20,7 @@ missing, or what to do next.
    - Stories without sprint plan: recommend `sprint-plan`.
    - Implementation in progress: recommend `automation-gate`, `dev-story`,
      `smoke-check`, or `code-review`.
-3. Use relevant expert references from `agents/` if the recommendation depends
+3. Use relevant expert references from `./agents/` if the recommendation depends
    on design, technical, production, QA, or release concerns.
 
 ## Output

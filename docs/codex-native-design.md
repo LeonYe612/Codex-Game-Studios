@@ -37,9 +37,9 @@ that Codex can run on demand.
 
 Recommended gates:
 
-- `scripts/cgs-doctor.ps1` for plugin and repository health
-- `scripts/cgs-detect-stage.ps1` for project stage detection
-- `scripts/cgs-validate-project.ps1` for project artifact validation
+- `plugins/codex-game-studios/scripts/cgs-doctor.ps1` for plugin and repository health
+- `plugins/codex-game-studios/scripts/cgs-detect-stage.ps1` for project stage detection
+- `plugins/codex-game-studios/scripts/cgs-validate-project.ps1` for project artifact validation
 
 ## Multi-Agent Use
 

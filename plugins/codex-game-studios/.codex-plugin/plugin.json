@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "description": "Codex-native game development studio workflows adapted from Claude Code Game Studios. Use natural language to plan, design, validate, and build games with automation-first quality gates.",
   "author": {
-    "name": "swl521",
-    "url": "https://github.com/swl521"
+    "name": "LeonYe612",
+    "url": "https://github.com/LeonYe612"
   },
-  "homepage": "https://github.com/swl521/Codex-Game-Studios",
-  "repository": "https://github.com/swl521/Codex-Game-Studios",
+  "homepage": "https://github.com/LeonYe612/Codex-Game-Studios",
+  "repository": "https://github.com/LeonYe612/Codex-Game-Studios",
   "license": "MIT",
   "keywords": [
     "codex",
@@ -23,16 +23,16 @@
     "displayName": "Codex Game Studios",
     "shortDescription": "Automation-first game studio workflows for Codex",
     "longDescription": "Codex Game Studios turns a Codex session into a structured game development workflow. It provides natural-language routing, project stage detection, quality gates, expert role references, and adapted skills for design, production, engineering, QA, release, and creative direction.",
-    "developerName": "swl521",
+    "developerName": "LeonYe612",
     "category": "Engineering",
     "capabilities": [
       "Interactive",
       "Read",
       "Write"
     ],
-    "websiteURL": "https://github.com/swl521/Codex-Game-Studios",
-    "privacyPolicyURL": "https://github.com/swl521/Codex-Game-Studios",
-    "termsOfServiceURL": "https://github.com/swl521/Codex-Game-Studios/blob/main/LICENSE",
+    "websiteURL": "https://github.com/LeonYe612/Codex-Game-Studios",
+    "privacyPolicyURL": "https://github.com/LeonYe612/Codex-Game-Studios",
+    "termsOfServiceURL": "https://github.com/LeonYe612/Codex-Game-Studios/blob/main/LICENSE",
     "defaultPrompt": [
       "Use Codex Game Studios to start my game project.",
       "Check my game project and recommend the next step.",
@@ -40,5 +40,12 @@
     ],
     "brandColor": "#2563EB",
     "screenshots": []
-  }
+  },
+  "developer_name": "LeonYe612",
+  "contributors": [
+    {
+      "name": "swl521",
+      "url": "https://github.com/swl521"
+    }
+  ]
 }

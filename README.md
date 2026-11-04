@@ -9,12 +9,12 @@ references, and practical scripts for validating game projects.
 
 ## What Is Included
 
-- **Codex plugin manifest** in `.codex-plugin/plugin.json`
-- **77 Codex skills** in `skills/`: 72 adapted studio workflows plus 5
+- **Codex plugin manifest** in `plugins/codex-game-studios/.codex-plugin/plugin.json`
+- **77 Codex skills** in `plugins/codex-game-studios/skills/`: 72 adapted studio workflows plus 5
   Codex-native orchestration and automation skills
-- **49 expert references** in `agents/`: creative, technical, production,
+- **49 expert references** in `plugins/codex-game-studios/agents/`: creative, technical, production,
   engine, QA, release, and discipline specialists
-- **Automation scripts** in `scripts/` for project health checks, stage
+- **Automation scripts** in `plugins/codex-game-studios/scripts/` for project health checks, stage
   detection, validation, and local installation
 - **Original Claude template** in `.claude/` for users who still want Claude
   Code compatibility
@@ -42,38 +42,46 @@ The main Codex-native entry points are:
 
 Clone the repository:
 
-```powershell
-git clone https://github.com/swl521/Codex-Game-Studios.git
+```bash
+git clone git@github.com:LeonYe612/Codex-Game-Studios.git
 cd Codex-Game-Studios
 ```
 
-Install it into your local Codex plugin directory:
+Add this repository as a local marketplace, then install the plugin:
 
-```powershell
-.\scripts\cgs-install-local.ps1
+```bash
+codex plugin marketplace add .
+codex plugin add codex-game-studios@codex-game-studios
 ```
 
-Then restart Codex or enable the local plugin if your Codex build requires
-manual plugin activation.
+Restart Codex after installation. The plugin is installed into Codex's managed
+plugin cache; do not copy the repository directory into `~/.codex/plugins/`.
+
+To install directly from the private Git repository without cloning it first:
+
+```bash
+codex plugin marketplace add git@github.com:LeonYe612/Codex-Game-Studios.git
+codex plugin add codex-game-studios@codex-game-studios
+```
 
 ## Automation
 
 Run the self-check:
 
 ```powershell
-.\scripts\cgs-doctor.ps1
+.\plugins\codex-game-studios\scripts\cgs-doctor.ps1
 ```
 
 Detect a game project's current stage:
 
 ```powershell
-.\scripts\cgs-detect-stage.ps1 -Root "path\to\your-game"
+.\plugins\codex-game-studios\scripts\cgs-detect-stage.ps1 -Root "path\to\your-game"
 ```
 
 Run project validation:
 
 ```powershell
-.\scripts\cgs-validate-project.ps1 -Root "path\to\your-game"
+.\plugins\codex-game-studios\scripts\cgs-validate-project.ps1 -Root "path\to\your-game"
 ```
 
 ## Claude Code Compatibility
@@ -103,10 +111,10 @@ Codex Game Studios 是一个面向 Codex 的游戏开发工作流插件，重点
 
 ## 包含内容
 
-- `.codex-plugin/plugin.json`：Codex 插件入口
-- `skills/`：77 个 Codex skills，包括 72 个移植工作流和 5 个 Codex 原生编排技能
-- `agents/`：49 个专家画像，供 Codex 在策划、技术、制作、QA、发行等场景引用
-- `scripts/`：项目检查、阶段检测、质量门、本地安装脚本
+- `plugins/codex-game-studios/.codex-plugin/plugin.json`：Codex 插件入口
+- `plugins/codex-game-studios/skills/`：77 个 Codex skills，包括 72 个移植工作流和 5 个 Codex 原生编排技能
+- `plugins/codex-game-studios/agents/`：49 个专家画像，供 Codex 在策划、技术、制作、QA、发行等场景引用
+- `plugins/codex-game-studios/scripts/`：项目检查、阶段检测、质量门、本地安装脚本
 - `.claude/`：原 Claude Code 模板兼容层
 
 ## 推荐用法
@@ -130,13 +138,22 @@ Codex 版的主要入口：
 
 ## 安装
 
-```powershell
-git clone https://github.com/swl521/Codex-Game-Studios.git
+```bash
+git clone https://github.com/LeonYe612/Codex-Game-Studios.git
 cd Codex-Game-Studios
-.\scripts\cgs-install-local.ps1
+codex plugin marketplace add .
+codex plugin add codex-game-studios@codex-game-studios
 ```
 
-安装后重启 Codex，或按你的 Codex 版本要求启用本地插件。
+不要手动把仓库复制到 `~/.codex/plugins/`；Codex 会将插件安装到自己的缓存目录。
+安装后重启 Codex。
+
+也可以不预先克隆，直接从私人 Git 仓库安装：
+
+```bash
+codex plugin marketplace add git@github.com:LeonYe612/Codex-Game-Studios.git
+codex plugin add codex-game-studios@codex-game-studios
+```
 
 ## 说明
 

@@ -9,9 +9,9 @@
       "automation-gate"
     ],
     "scripts": [
-      "scripts/cgs-doctor.ps1",
-      "scripts/cgs-detect-stage.ps1",
-      "scripts/cgs-validate-project.ps1"
+      "./scripts/cgs-doctor.ps1",
+      "./scripts/cgs-detect-stage.ps1",
+      "./scripts/cgs-validate-project.ps1"
     ]
   }
 }

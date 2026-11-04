@@ -12,7 +12,7 @@ discipline specialist.
 ## Workflow
 
 1. Identify the requested expert role.
-2. Read the matching file in `agents/`.
+2. Read the matching file in `./agents/`.
 3. Apply that role as a consultation lens for the current task.
 4. If the requested role is ambiguous, choose the closest matching expert and
    state the choice.

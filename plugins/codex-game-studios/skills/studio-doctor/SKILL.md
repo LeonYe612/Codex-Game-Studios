@@ -10,10 +10,10 @@ Codex Game Studios project or plugin installation.
 
 ## Workflow
 
-1. Run `scripts/cgs-doctor.ps1` from the repository root.
+1. Run `./scripts/cgs-doctor.ps1` from the repository root.
 2. If the user is checking a game project, also run:
-   - `scripts/cgs-detect-stage.ps1`
-   - `scripts/cgs-validate-project.ps1`
+   - `./scripts/cgs-detect-stage.ps1`
+   - `./scripts/cgs-validate-project.ps1`
 3. Summarize findings by severity:
    - Blocking: invalid JSON, missing plugin manifest, missing skills, broken
      attribution, or leaked local paths.

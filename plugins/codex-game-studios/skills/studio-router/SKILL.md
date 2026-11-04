@@ -11,7 +11,7 @@ or organize a game project with Codex Game Studios.
 ## Routing Workflow
 
 1. Inspect the project before recommending a workflow:
-   - Run or emulate `scripts/cgs-detect-stage.ps1`.
+   - Run or emulate `./scripts/cgs-detect-stage.ps1`.
    - Check for engine files, `design/`, `docs/`, `production/`, `src/`,
      `prototypes/`, and test assets.
    - Summarize only decision-useful findings.
@@ -23,7 +23,7 @@ or organize a game project with Codex Game Studios.
      `code-review`, `tech-debt`, or `perf-profile`.
    - QA/release: use `qa-plan`, `smoke-check`, `release-checklist`,
      `launch-checklist`, or `patch-notes`.
-3. Select expert references from `agents/` when useful:
+3. Select expert references from `./agents/` when useful:
    - Creative decisions: `creative-director`, `game-designer`,
      `art-director`, `narrative-director`, `audio-director`.
    - Technical decisions: `technical-director`, `lead-programmer`,
