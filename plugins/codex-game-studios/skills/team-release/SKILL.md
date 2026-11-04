@@ -1,6 +1,6 @@
 ---
 name: team-release
-description: "Orchestrate the release team: coordinates release-manager, qa-lead, devops-engineer, and producer to execute a release from candidate to deployment."
+description: "Coordinate release management, QA, DevOps, and production from release candidate to deployment."
 ---
 
 > Codex port note: This skill was adapted from the original Claude Code Game Studios workflow. In Codex, use it through natural language or by naming the skill; ask before writing project files when the workflow requires user choice.

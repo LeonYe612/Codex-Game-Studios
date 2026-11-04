@@ -1,6 +1,6 @@
 ---
 name: setup-engine
-description: "Configure the project's game engine and version. Pins the engine in CLAUDE.md, detects knowledge gaps, and populates engine reference docs via WebSearch when the version is beyond the LLM's training data."
+description: "Configure engine, language, version, commands, and scaffold the project; use before writing engine-specific code."
 ---
 
 > Codex port note: This skill was adapted from the original Claude Code Game Studios workflow. In Codex, use it through natural language or by naming the skill; ask before writing project files when the workflow requires user choice.

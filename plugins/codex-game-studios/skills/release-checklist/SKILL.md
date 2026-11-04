@@ -1,6 +1,6 @@
 ---
 name: release-checklist
-description: "Generates a comprehensive pre-release validation checklist covering build verification, certification requirements, store metadata, and launch readiness."
+description: "Validate build, certification, store metadata, and release readiness before shipping."
 ---
 
 > Codex port note: This skill was adapted from the original Claude Code Game Studios workflow. In Codex, use it through natural language or by naming the skill; ask before writing project files when the workflow requires user choice.

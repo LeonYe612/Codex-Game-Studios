@@ -1,6 +1,6 @@
 ---
 name: localize
-description: "Full localization pipeline: scan for hardcoded strings, extract and manage string tables, validate translations, generate translator briefings, run cultural/sensitivity review, manage VO localization, test RTL/platform requirements, enforce string freeze, and report coverage."
+description: "Run localization work: extract strings, validate translations, review culture, manage VO, and enforce string freeze."
 ---
 
 > Codex port note: This skill was adapted from the original Claude Code Game Studios workflow. In Codex, use it through natural language or by naming the skill; ask before writing project files when the workflow requires user choice.

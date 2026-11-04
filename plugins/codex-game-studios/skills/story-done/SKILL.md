@@ -1,6 +1,6 @@
 ---
 name: story-done
-description: "End-of-story completion review. Reads the story file, verifies each acceptance criterion against the implementation, checks for GDD/ADR deviations, prompts code review, updates story status to Complete, and surfaces the next ready story from the sprint."
+description: "Close a story after verifying acceptance criteria and evidence, then surface the next ready story."
 ---
 
 > Codex port note: This skill was adapted from the original Claude Code Game Studios workflow. In Codex, use it through natural language or by naming the skill; ask before writing project files when the workflow requires user choice.

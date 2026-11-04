@@ -44,6 +44,7 @@ Recommended gates:
 - `plugins/codex-game-studios/scripts/cgs-doctor.ps1` for plugin and repository health
 - `plugins/codex-game-studios/scripts/cgs-detect-stage.ps1` for project stage detection
 - `plugins/codex-game-studios/scripts/cgs-validate-project.ps1` for project artifact validation
+- `plugins/codex-game-studios/scripts/skill-metadata-check.py` for Skill discovery metadata (Python, cross-platform)
 
 ## Multi-Agent Use
 

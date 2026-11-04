@@ -1,6 +1,6 @@
 ---
 name: agent-consult
-description: Uses one of the Codex Game Studios expert role files in agents/ as a focused consultation lens.
+description: "Apply one expert role file as a focused consultation lens; use when the user names a studio role or asks for that perspective."
 ---
 
 # Agent Consult

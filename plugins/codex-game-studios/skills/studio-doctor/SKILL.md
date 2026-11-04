@@ -1,6 +1,6 @@
 ---
 name: studio-doctor
-description: Runs Codex Game Studios repository and project health checks, then summarizes structural, workflow, and release readiness issues.
+description: "Check plugin and project health, then summarize structural, workflow, and release-readiness issues."
 ---
 
 # Studio Doctor

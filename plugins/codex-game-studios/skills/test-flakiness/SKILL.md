@@ -1,6 +1,6 @@
 ---
 name: test-flakiness
-description: "Detect non-deterministic (flaky) tests by reading CI run logs or test result history. Aggregates pass rates per test, identifies intermittent failures, recommends quarantine or fix, and maintains a flaky test registry. Best run during Polish phase or after multiple CI runs."
+description: "Analyze repeated CI results for flaky tests, recommend quarantine or repair, and maintain a flaky-test registry."
 ---
 
 > Codex port note: This skill was adapted from the original Claude Code Game Studios workflow. In Codex, use it through natural language or by naming the skill; ask before writing project files when the workflow requires user choice.

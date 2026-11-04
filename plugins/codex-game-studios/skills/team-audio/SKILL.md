@@ -1,6 +1,6 @@
 ---
 name: team-audio
-description: "Orchestrate audio team: audio-director + sound-designer + technical-artist + gameplay-programmer for full audio pipeline from direction to implementation."
+description: "Coordinate the audio director, sound designer, technical artist, and gameplay programmer through audio design and implementation."
 ---
 
 > Codex port note: This skill was adapted from the original Claude Code Game Studios workflow. In Codex, use it through natural language or by naming the skill; ask before writing project files when the workflow requires user choice.

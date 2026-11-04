@@ -1,6 +1,6 @@
 ---
 name: team-level
-description: "Orchestrate level design team: level-designer + narrative-director + world-builder + art-director + systems-designer + qa-tester for complete area/level creation."
+description: "Coordinate design, narrative, world, art, systems, and QA specialists to create a complete level or area."
 ---
 
 > Codex port note: This skill was adapted from the original Claude Code Game Studios workflow. In Codex, use it through natural language or by naming the skill; ask before writing project files when the workflow requires user choice.

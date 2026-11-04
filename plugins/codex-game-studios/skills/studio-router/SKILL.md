@@ -1,6 +1,6 @@
 ---
 name: studio-router
-description: Natural-language entry point for Codex Game Studios. Detects intent, selects the right workflow, and routes to automation, design, production, engineering, QA, or release skills.
+description: "Route a natural-language game-development request to the appropriate studio skill; use as the broad entry point."
 ---
 
 # Studio Router

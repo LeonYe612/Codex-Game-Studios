@@ -1,6 +1,6 @@
 ---
 name: automation-gate
-description: Runs Codex-native quality gates for game design, production artifacts, source layout, assets, tests, and release readiness.
+description: "Run a read-only quality gate over design artifacts, source layout, assets, tests, and release readiness."
 ---
 
 # Automation Gate

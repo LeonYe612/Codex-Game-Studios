@@ -1,6 +1,6 @@
 ---
 name: skill-improve
-description: "Improve a skill using a test-fix-retest loop. Runs static checks, proposes targeted fixes, rewrites the skill, re-tests, and keeps or reverts based on score change."
+description: "Improve one skill through test, diagnosis, rewrite, retest, and keep-or-revert scoring."
 ---
 
 > Codex port note: This skill was adapted from the original Claude Code Game Studios workflow. In Codex, use it through natural language or by naming the skill; ask before writing project files when the workflow requires user choice.

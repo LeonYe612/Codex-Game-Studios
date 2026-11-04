@@ -1,6 +1,6 @@
 ---
 name: studio-stage-detect
-description: Detects a game project's current stage and recommends the next Codex Game Studios workflow.
+description: "Detect a game project stage and recommend the next studio workflow from repository evidence."
 ---
 
 # Studio Stage Detect

@@ -1,6 +1,6 @@
 ---
 name: team-polish
-description: "Orchestrate the polish team: coordinates performance-analyst, technical-artist, sound-designer, and qa-tester to optimize, polish, and harden a feature or area for release quality."
+description: "Coordinate performance, art, audio, and QA specialists to optimize, polish, and harden a feature or area."
 ---
 
 > Codex port note: This skill was adapted from the original Claude Code Game Studios workflow. In Codex, use it through natural language or by naming the skill; ask before writing project files when the workflow requires user choice.

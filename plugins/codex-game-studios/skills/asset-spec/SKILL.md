@@ -1,6 +1,6 @@
 ---
 name: asset-spec
-description: "Generate per-asset visual specifications and AI generation prompts from GDDs, level docs, or character profiles. Produces structured spec files and updates the master asset manifest. Run after art bible and GDD/level design are approved, before production begins."
+description: "Write per-asset visual specs and generation prompts after art direction is approved; use before asset production, not for final asset review."
 ---
 
 > Codex port note: This skill was adapted from the original Claude Code Game Studios workflow. In Codex, use it through natural language or by naming the skill; ask before writing project files when the workflow requires user choice.

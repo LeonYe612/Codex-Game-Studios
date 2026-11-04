@@ -1,6 +1,6 @@
 ---
 name: team-live-ops
-description: "Orchestrate the live-ops team for post-launch content planning: coordinates live-ops-designer, economy-designer, analytics-engineer, community-manager, writer, and narrative-director to design and plan a season, event, or live content update."
+description: "Coordinate design, economy, analytics, community, and narrative specialists to plan a season, event, or live update."
 ---
 
 > Codex port note: This skill was adapted from the original Claude Code Game Studios workflow. In Codex, use it through natural language or by naming the skill; ask before writing project files when the workflow requires user choice.

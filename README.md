@@ -64,6 +64,32 @@ codex plugin marketplace add git@github.com:LeonYe612/Codex-Game-Studios.git
 codex plugin add codex-game-studios@codex-game-studios
 ```
 
+## Enable Or Disable
+
+To remove the plugin and its discovery metadata from new Codex sessions:
+
+```bash
+codex plugin remove codex-game-studios@codex-game-studios
+```
+
+To reinstall it later:
+
+```bash
+codex plugin add codex-game-studios@codex-game-studios
+```
+
+For a reversible switch that keeps the installed files, edit
+`~/.codex/config.toml`:
+
+```toml
+[plugins."codex-game-studios@codex-game-studios"]
+enabled = false
+```
+
+Set it back to `true` and restart Codex to re-enable all Skills. The CLI does not
+currently expose a dedicated `plugin enable`/`plugin disable` subcommand; direct
+configuration is the supported fallback.
+
 ## Automation
 
 The automation scripts require PowerShell 7 (`pwsh`). Install it on macOS with
@@ -86,6 +112,12 @@ Run project validation:
 
 ```powershell
 .\plugins\codex-game-studios\scripts\cgs-validate-project.ps1 -Root "path\to\your-game"
+```
+
+Check skill discovery metadata without PowerShell:
+
+```bash
+python3 plugins/codex-game-studios/scripts/skill-metadata-check.py --json
 ```
 
 ## Claude Code Compatibility
@@ -158,6 +190,30 @@ codex plugin add codex-game-studios@codex-game-studios
 codex plugin marketplace add git@github.com:LeonYe612/Codex-Game-Studios.git
 codex plugin add codex-game-studios@codex-game-studios
 ```
+
+## 启停
+
+彻底移除插件及其 Skill 元数据：
+
+```bash
+codex plugin remove codex-game-studios@codex-game-studios
+```
+
+重新安装：
+
+```bash
+codex plugin add codex-game-studios@codex-game-studios
+```
+
+如需保留已安装文件、只临时关闭，可在 `~/.codex/config.toml` 中设置：
+
+```toml
+[plugins."codex-game-studios@codex-game-studios"]
+enabled = false
+```
+
+改回 `true` 并重启 Codex 即可恢复。当前 Codex CLI 没有独立的
+`plugin enable` / `plugin disable` 子命令，直接配置是受支持的替代方式。
 
 ## 说明
 

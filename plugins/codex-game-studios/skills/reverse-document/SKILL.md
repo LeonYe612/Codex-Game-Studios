@@ -1,6 +1,6 @@
 ---
 name: reverse-document
-description: "Generate design or architecture documents from existing implementation. Works backwards from code/prototypes to create missing planning docs."
+description: "Recover missing design or architecture documents from existing implementation, code, or prototypes."
 ---
 
 > Codex port note: This skill was adapted from the original Claude Code Game Studios workflow. In Codex, use it through natural language or by naming the skill; ask before writing project files when the workflow requires user choice.

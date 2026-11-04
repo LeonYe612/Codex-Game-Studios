@@ -1,6 +1,6 @@
 ---
 name: tech-debt
-description: "Track, categorize, and prioritize technical debt across the codebase. Scans for debt indicators, maintains a debt register, and recommends repayment scheduling."
+description: "Scan, categorize, and prioritize technical debt, then recommend repayment scheduling."
 ---
 
 > Codex port note: This skill was adapted from the original Claude Code Game Studios workflow. In Codex, use it through natural language or by naming the skill; ask before writing project files when the workflow requires user choice.

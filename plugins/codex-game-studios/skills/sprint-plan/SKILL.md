@@ -1,6 +1,6 @@
 ---
 name: sprint-plan
-description: "Generates a new sprint plan or updates an existing one based on the current milestone, completed work, and available capacity. Pulls context from production documents and design backlogs."
+description: "Create or update a sprint plan from milestone goals, completed work, and available capacity."
 ---
 
 > Codex port note: This skill was adapted from the original Claude Code Game Studios workflow. In Codex, use it through natural language or by naming the skill; ask before writing project files when the workflow requires user choice.

@@ -1,6 +1,6 @@
 ---
 name: perf-profile
-description: "Structured performance profiling workflow. Identifies bottlenecks, measures against budgets, and generates optimization recommendations with priority rankings."
+description: "Profile a build against performance budgets, identify bottlenecks, and rank optimization work."
 ---
 
 > Codex port note: This skill was adapted from the original Claude Code Game Studios workflow. In Codex, use it through natural language or by naming the skill; ask before writing project files when the workflow requires user choice.

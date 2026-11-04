@@ -1,6 +1,6 @@
 ---
 name: content-audit
-description: "Audit GDD-specified content counts against implemented content. Identifies what's planned vs built."
+description: "Compare GDD-specified content counts with implemented content and identify planned-versus-built gaps."
 ---
 
 > Codex port note: This skill was adapted from the original Claude Code Game Studios workflow. In Codex, use it through natural language or by naming the skill; ask before writing project files when the workflow requires user choice.

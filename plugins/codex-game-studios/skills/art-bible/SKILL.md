@@ -1,6 +1,6 @@
 ---
 name: art-bible
-description: "Guided, section-by-section Art Bible authoring. Creates the visual identity specification that gates all asset production. Run after /brainstorm is approved and before /map-systems or any GDD authoring begins."
+description: "Author the visual identity specification before asset production; use after concept approval and before systems or GDD authoring."
 ---
 
 > Codex port note: This skill was adapted from the original Claude Code Game Studios workflow. In Codex, use it through natural language or by naming the skill; ask before writing project files when the workflow requires user choice.
